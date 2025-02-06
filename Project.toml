@@ -1,7 +1,30 @@
 name = "CategoricalDataScience"
 authors = ["Jacob S. Zelko", "Quella Wang"]
-[compat]
-julia = "1.10.5"
-DrWatson = "2.18.0"
+
 [deps]
+ACSets = "227ef7b5-1206-438b-ac65-934d6da304b8"
+AlgebraOfGraphics = "cbdf2221-f076-402e-a563-3d30da359d67"
+CairoMakie = "13f3f980-e62b-5c42-98c6-ff1f3baf88f0"
+Catlab = "134e5e36-593f-5add-ad60-77f754baafbe"
+DBInterface = "a10d1c49-ce27-4219-8d33-6db1a4562965"
+DataFrames = "a93c6f00-e57d-5684-b7b6-d8193f3e46c0"
 DrWatson = "634d3b9d-ee7a-5ddf-bec9-22491ea816e1"
+MLJ = "add582a8-e3ab-11e8-2d5e-e98b27df1bc7"
+Makie = "ee78f7c6-11fb-53f2-987a-cfe4a2b5a57a"
+OMOPCDMCohortCreator = "f525a15e-a73f-4eef-870f-f901257eae22"
+SQLite = "0aa819cd-b072-5ff4-a722-6bc24af294d9"
+Statistics = "10745b16-79ce-11e8-11f9-7d13ad32a3b2"
+
+[compat]
+ACSets = "0.2.21"
+AlgebraOfGraphics = "0.9"
+CairoMakie = "0.13"
+Catlab = "0.16.19"
+DBInterface = "2.6.1"
+DataFrames = "1.7"
+DrWatson = "2.18.0"
+MLJ = "0.20.7"
+Makie = "0.22"
+OMOPCDMCohortCreator = "0.5"
+SQLite = "1.6.1"
+julia = "1.10"
